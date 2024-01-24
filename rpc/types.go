@@ -24,7 +24,7 @@ import (
 
 	bin "github.com/gagliardetto/binary"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/jwrookie/jwsolana-go"
 )
 
 type Context struct {
@@ -214,7 +214,7 @@ type TransactionMeta struct {
 	Rewards []BlockReward `json:"rewards"`
 
 	LoadedAddresses LoadedAddresses `json:"loadedAddresses"`
-	
+
 	ComputeUnitsConsumed *uint64 `json:"computeUnitsConsumed"`
 }
 

@@ -14,7 +14,7 @@
 
 package ws
 
-import "github.com/gagliardetto/solana-go"
+import "github.com/jwrookie/jwsolana-go"
 
 type SlotsUpdatesResult struct {
 	// The parent slot.

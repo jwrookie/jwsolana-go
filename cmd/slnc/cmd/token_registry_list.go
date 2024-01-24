@@ -21,11 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryanuber/columnize"
-
-	"github.com/gagliardetto/solana-go/programs/tokenregistry"
-	_ "github.com/gagliardetto/solana-go/programs/tokenregistry"
-	"github.com/spf13/cobra"
+	"github.com/jwrookie/jwsolana-go/programs/tokenregistry"
+	_ "github.com/jwrookie/jwsolana-go/programs/tokenregistry"
 )
 
 var tokenRegistryListCmd = &cobra.Command{

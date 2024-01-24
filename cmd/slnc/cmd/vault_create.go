@@ -21,12 +21,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/jwrookie/jwsolana-go"
 
-	"github.com/gagliardetto/solana-go/cli"
-	"github.com/gagliardetto/solana-go/vault"
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
+	"github.com/jwrookie/jwsolana-go/cli"
+	"github.com/jwrookie/jwsolana-go/vault"
 )
 
 // vaultCreateCmd represents the create command

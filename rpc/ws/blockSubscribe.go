@@ -16,9 +16,8 @@ package ws
 
 import (
 	"fmt"
-
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	solana "github.com/jwrookie/jwsolana-go"
+	"github.com/jwrookie/jwsolana-go/rpc"
 )
 
 type BlockResult struct {
@@ -64,6 +63,7 @@ type BlockSubscribeOpts struct {
 
 	// Level of transaction detail to return.
 	TransactionDetails rpc.TransactionDetailsType
+	Version            uint64
 
 	// Whether to populate the rewards array. If parameter not provided, the default includes rewards.
 	Rewards *bool
@@ -114,6 +114,7 @@ func (cl *Client) BlockSubscribe(
 		if opts.Rewards != nil {
 			obj["rewards"] = opts.Rewards
 		}
+		obj["maxSupportedTransactionVersion"] = opts.Version
 		if len(obj) > 0 {
 			params = append(params, obj)
 		}

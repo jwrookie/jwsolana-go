@@ -20,9 +20,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/gagliardetto/solana-go/programs/serum"
-	"github.com/ryanuber/columnize"
-	"github.com/spf13/cobra"
+	"github.com/jwrookie/jwsolana-go/programs/serum"
 )
 
 var serumListMarketsCmd = &cobra.Command{

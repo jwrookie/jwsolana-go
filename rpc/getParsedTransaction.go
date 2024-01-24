@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
+	"github.com/jwrookie/jwsolana-go"
 )
 
 type GetParsedTransactionOpts struct {

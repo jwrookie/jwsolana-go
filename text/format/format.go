@@ -18,9 +18,9 @@ import (
 	"strings"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/text"
-	. "github.com/gagliardetto/solana-go/text"
+	"github.com/jwrookie/jwsolana-go"
+	"github.com/jwrookie/jwsolana-go/text"
+	. "github.com/jwrookie/jwsolana-go/text"
 )
 
 func Program(name string, programID solana.PublicKey) string {

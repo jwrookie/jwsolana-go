@@ -22,11 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/solana-go/text"
+	"github.com/jwrookie/jwsolana-go/text"
 
-	"github.com/gagliardetto/solana-go"
-
-	"github.com/spf13/cobra"
+	"github.com/jwrookie/jwsolana-go"
 )
 
 var getProgramAccountsCmd = &cobra.Command{

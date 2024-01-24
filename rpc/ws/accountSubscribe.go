@@ -15,8 +15,8 @@
 package ws
 
 import (
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/jwrookie/jwsolana-go"
+	"github.com/jwrookie/jwsolana-go/rpc"
 )
 
 type AccountResult struct {

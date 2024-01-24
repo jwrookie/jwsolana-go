@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/text/format"
 	"github.com/gagliardetto/treeout"
+	"github.com/jwrookie/jwsolana-go"
+	"github.com/jwrookie/jwsolana-go/text/format"
 )
 
 type Withdraw struct {

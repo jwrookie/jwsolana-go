@@ -23,11 +23,10 @@ import (
 	"os"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/programs/token"
-	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/gagliardetto/solana-go/text"
-	"github.com/spf13/cobra"
+	"github.com/jwrookie/jwsolana-go"
+	"github.com/jwrookie/jwsolana-go/programs/token"
+	"github.com/jwrookie/jwsolana-go/rpc"
+	"github.com/jwrookie/jwsolana-go/text"
 )
 
 var getSPLTokenCmd = &cobra.Command{

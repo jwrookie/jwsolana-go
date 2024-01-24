@@ -20,8 +20,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/spf13/cobra"
+	"github.com/jwrookie/jwsolana-go"
 )
 
 var getBalanceCmd = &cobra.Command{
