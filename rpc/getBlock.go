@@ -94,7 +94,7 @@ func (cl *Client) GetBlockWithOpts(
 			obj["transactionDetails"] = opts.TransactionDetails
 		}
 		if opts.Rewards != nil {
-			obj["rewards"] = opts.Rewards
+			obj["showRewards"] = opts.Rewards
 		}
 		if opts.Commitment != "" {
 			obj["commitment"] = opts.Commitment

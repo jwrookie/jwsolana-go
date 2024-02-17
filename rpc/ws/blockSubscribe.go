@@ -112,7 +112,7 @@ func (cl *Client) BlockSubscribe(
 			obj["transactionDetails"] = opts.TransactionDetails
 		}
 		if opts.Rewards != nil {
-			obj["rewards"] = opts.Rewards
+			obj["showRewards"] = opts.Rewards
 		}
 		obj["maxSupportedTransactionVersion"] = opts.Version
 		if len(obj) > 0 {
